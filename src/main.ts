@@ -17,12 +17,12 @@ themeToggle.addEventListener("click", () => {
   if (currentTheme === "dark") {
     document.body.setAttribute("data-theme", "light");
     themeTitle.textContent = "Dark";
-    themeIcon.src = "../public/images/dark-mood.svg";
+    themeIcon.src = "/images/dark-mood.svg";
     themeIcon.alt = "dark-mood-icon";
   } else {
     document.body.setAttribute("data-theme", "dark");
     themeTitle.textContent = "Light";
-    themeIcon.src = "../public/images/light-mood.svg";
+    themeIcon.src = "/images/light-mood.svg";
     themeIcon.alt = "light-mood-icon";
   }
 });
